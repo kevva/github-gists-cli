@@ -1,0 +1,44 @@
+{
+  "name": "github-gists-cli",
+  "version": "0.0.0",
+  "description": "Get all gists from a GitHub user",
+  "license": "MIT",
+  "repository": "kevva/github-gists-cli",
+  "author": {
+    "name": "Kevin Martensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva"
+  },
+  "bin": {
+    "github-gists": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "gist",
+    "github",
+    "user"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "github-gists": "^3.0.0",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.4.0",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
